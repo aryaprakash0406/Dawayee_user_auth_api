@@ -45,14 +45,14 @@ class User(AbstractBaseUser):
       max_length=255,
       unique=True,
   )
-  name = models.CharField(max_length=200)
-  Gender = models.CharField(max_length=200)
-  DOB = models.DateTimeField()
+  name = models.CharField(max_length=200,blank=True,null=True)
+  Gender = models.CharField(max_length=200,blank=True,null=True)
+  DOB = models.DateTimeField(blank=True,null=True)
   is_active = models.BooleanField(default=True)
-  phone=models.IntegerField(unique=True)
+  phone=models.IntegerField(unique=True,blank=True,null=True)
   is_admin = models.BooleanField(default=False)
-  created_at = models.DateTimeField(auto_now_add=True)
-  updated_at = models.DateTimeField(auto_now=True)
+  created_at = models.DateTimeField(auto_now_add=True,blank=True,null=True)
+  updated_at = models.DateTimeField(auto_now=True,blank=True,null=True)
 
   objects = UserManager()
 
