@@ -171,8 +171,8 @@ SIMPLE_JWT = {
 PASSWORD_RESET_TIMEOUT=900          # 900 Sec = 15 Min
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
+    "https://dawayee-user-authentication.herokuapp.com/",
+    "https://dawayee-user-authentication.herokuapp.com/",
 ]
 
 django_heroku.settings(locals())
