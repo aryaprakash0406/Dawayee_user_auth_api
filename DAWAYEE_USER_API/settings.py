@@ -96,7 +96,7 @@ DATABASES={
       'NAME':'user_database',
       'USER':'oculusvertex',
       'PASSWORD':'arya1234',
-      'HOST':'userdatabaseinstance.cmhaturo9p0i.us-west-1.rds.amazonaws.com',
+      'HOST':'userdatabaseinstance.cwninlemtkwt.ap-south-1.rds.amazonaws.com',
       'PORT':'5432',
    }
 }
