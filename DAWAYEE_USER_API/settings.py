@@ -93,11 +93,11 @@ WSGI_APPLICATION = 'DAWAYEE_USER_API.wsgi.application'
 DATABASES={
    'default':{
       'ENGINE':'django.db.backends.postgresql',
-      'NAME':'User_database',
-      'USER':'postgres',
-      'PASSWORD':'Arya@123',
-      'HOST':'localhost',
-      'PORT':'5050',
+      'NAME':'user_database',
+      'USER':'oculusvertex',
+      'PASSWORD':'arya1234',
+      'HOST':'userdatabaseinstance.cmhaturo9p0i.us-west-1.rds.amazonaws.com',
+      'PORT':'5432',
    }
 }
 
